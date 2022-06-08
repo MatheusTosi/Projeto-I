@@ -1,0 +1,33 @@
+Projeto Interdiciplinar I - 05/06
+
+Entrada:  Salario, Renda Extra, Cartao Debito, Cartao Credito, Despesas Fixas (Contas de casa [agua, aluguel, luz, compras], parcelas(respectivos juros), pets) 
+
+Saída: demonstraçao em tela com atualização de todo o panorama financeiro do usuário em questão
+       - meses com parcelas a serem pagas e valor total
+	   - salario 
+       - renda extra
+       - despesas fixas
+      
+
+
+
+* Acressimo: se, o montante final for negativo, recomende corte de gastos
+
+
+
+
+
+
+ printf("\tQUAL EH SEU SALARIO FIXO?\n\n");
+                    scanf("%f", &salarioF);
+                    printf("\tQUANTO FAZ DE RENDA EXTRA?\n\n");
+                    scanf("%f", &rendaextra);
+                    printf("\tDESPESAS FIXAS:\n");
+                    printf("ALUGUEL: \n");
+                    scanf("%f", &aluguel);
+                    printf("CONTA DE LUZ: \n");
+                    scanf("%f", &luz);
+                    printf("CONTA DE AGUA: \n");
+                    scanf("%f", &agua);
+                    printf("MERCADO: ");
+                    scanf("%f", &mercado);
